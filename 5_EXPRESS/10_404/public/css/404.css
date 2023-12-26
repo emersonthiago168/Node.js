@@ -1,0 +1,11 @@
+
+div {
+    background: #000 url('https://static.vecteezy.com/system/resources/previews/004/435/751/original/404-error-page-with-black-cat-illustrations-not-found-system-updates-uploading-operation-computing-installation-programs-vector.jpg') no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px #00000057;
+    
+    width: 50%;
+    height: 80vh;
+    margin: auto;
+}

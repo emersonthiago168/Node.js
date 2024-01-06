@@ -88,6 +88,7 @@ app.get('/', async (req, res) => {
 })
 
 conn
+    //.sync({ force: true }) força a recriação de banco de dados
     .sync()
     .then(() => {
         app.listen(3000, () => console.log('Rodando na porta 3000'));
